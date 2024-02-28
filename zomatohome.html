@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./zomatohome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+   <nav>
+   <!-- *************************************************************************** -->
+    <div class="img">
+        <img src="./zomato2.png" alt="" height="60">
+    </div>
+    <!-- **************************************************************************** -->
+    <div class="location-bar">
+        <div class="location-box">
+            <i class="fa-solid fa-location-dot fa-bounce" style="color: red;"></i>
+            <select name="loc" id="loc">
+                <option value="Kochi">Kochi</option>
+                <option value="detect-location">Detect Current Location</option>
+            </select>
+        </div>
+    </div>
+    <!-- ****************************************************************************** -->
+    <div class="search-bar">
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           <input type="text" placeholder="Search for resturant,cuisine or a dish" style="border:1px solid white;width: 360px;">
+        </div>
+    </div>
+    <!-- ********************************************************************************** -->
+    <div class="border-box"></div>
+    <p class="divider">|</p>
+    <ul>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">Sign up</a></li>
+    </ul>
+    <!-- ************************************************************************************ -->
+    <p class="path">Home/India/Kochi Resturant</p>
+    <!-- ************************************************************************************* -->
+    <div class="services">
+
+        <div class="delivery-bar">
+            <img src="./Zscooty.webp" alt="" height="50" style="background-color: rgb(236,236,50);border-radius:50%;">
+            <span class="image-underline"></span>
+            <p class="delivery">Delivery</p>
+        </div>
+        <!-- ************************************************************************************* -->
+        <aside id="selected"></aside>
+        <div class="dining-bar">
+            <img src="Zdining.webp" alt="" height="50"style="background-color:rgb(238,232,232);border-radius:50%;padding-top:7px;">
+            <p class="dining" style="width: 150px;">Dining Out</p>
+        </div>
+        <!-- ***************************************************************************************** -->
+        <div class="nightlife-bar">
+            <img src="Znightlife.webp" alt="" height="50" style="background-color: rgb(238,232,232);border-radius: 50%;padding-top: 7px;">
+            <p class="night">Nightlife</p>
+        </div>
+        <!-- ****************************************************************************************** -->
+    </div>
+   </nav> 
+   <div class="button">
+    <button class="filter"><img src="./filter.webp" alt="" height="10">Filters</button>
+    <button class="rating">Rating:4.0+</button>
+    <button class="Pureveg">Pure veg</button>
+    <button class="cuisines">Cuisines<img src="./down.png" alt="" height="10"></button>
+   </div>
+<!-- ****************************************************************************************************** -->
+ <div class="items" style="background-color: rgb(255, 255, 255); height: 350px;">
+    <p class="statement">Inspiration for your first order</p>
+    <div class="flex-containers">
+      <div class="flex-items biriyani"><img src="./biriyani.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Biriyani</div>
+      <div class="flex-items pizza"><img src="./chicken.webp" alt="" height="130px" width="130px" style="border-radius: 50%; margin-bottom:10px;border-radius: 100%;">Chicken</div>
+      <div class="flex-items burger"><img src="./pizza.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Pizza</div>
+      <div class="flex-items chicken"><img src="./pothichoru.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Pothichoru</div>
+      <div class="flex-items shawarma"><img src="./mandi.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Chicken Mandi</div>
+      <div class="flex-items cake"><img src="./friedrice.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Fried Rice</div>
+    </div>
+  </div>
+
+<!-- ****************************************************************************************** -->
+<div class="items" style="background-color: rgb(248, 248, 248);height: 350px;">
+    <p class="statement">Top brands for you</p>
+    <div class="flex-containers">
+        <div class="flex-items biriyani"><img src="./chicking.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Chicking</div>
+        <div class="flex-items pizza"><img src="./pizzahut.webp" alt="" height="130px" width="130px" style="border-radius: 50%; margin-bottom:10px;border-radius: 100%;">Pizzahut</div>
+        <div class="flex-items burger"><img src="./thaal.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Thaal Kitchen</div>
+        <div class="flex-items chicken"><img src="./burgerking.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">BurgerKing</div>
+        <div class="flex-items shawarma"><img src="./Altaza.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Altaza</div>
+        <div class="flex-items cake"><img src="./urbanparatha.webp" alt="" height="130px" width="130px" style="margin-bottom:10px;border-radius: 100%;">Urbanparatha</div>
+        
+    </div>
+</div>
+<!-- ********************************************************************************************* -->
+<div class="footer"> 
+  <img src="./zomato2.png" height="70px" width="125px">
+  <table cellspacing="25px" cellspanning="5px" style="flex-direction: column;">
+    <tr style="color: black;">
+      <th style="left: 2%;">ABOUT ZOMATO</th>
+    </tr>
+      <tr style="color: gray;">
+        <td>Who we are</td>
+      </tr>
+      <tr style="color: gray;">
+        <td>Blink</td>
+      </tr>
+      <tr style="color: gray;">
+        <td>Work with us</td>
+      </tr>
+      <tr style="color: gray;">
+        <td>Blink</td>
+      </tr>
+      <tr style="color: gray;">
+        <td>Blink</td>
+      </tr>
+    <tr style="color: gray;">
+      <td>Who We Are</td>
+      <td>Zomato</td>
+      <td>partner with Us</td>
+      <td>Privacy</td>
+      <td style="color: black;">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </td>
+    </tr>
+    <tr style="color: gray;" >
+      <td>Blink</td>
+      <td>Blinkkit</td>
+      <td>Apps For You</td>
+      <td>Security</td>
+    </tr>
+
+    <tr  style="color: gray;">
+      <td>Work with us</td>
+      <td>Feeding India</td>
+      <td></td>
+      <td>terms</td>
+    </tr>
+
+    <tr>
+      <td>Investor Relations</td>
+      <td>Hyperpure</td>
+      <td><th style="color: black;">FOR ENTERPRISES</th></td>
+      <td>Sitemap</td>
+    </tr>
+
+    <tr>
+      <td>Report Fraud</td>
+      <td>Zomaland</td>
+      <td>Zomato for Enterprise</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Press kit</td>
+    </tr>
+
+    <tr>
+      <td>Contact Us</td>
+    </tr>
+
+  </table>
+</div>  
+<!-- ****************************************************************** -->
+ 
+  
+ 
+</body>
+</html>

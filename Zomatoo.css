@@ -1,0 +1,22 @@
+*{
+        margin:0px ;
+       padding: 0px;
+       box-sizing: border-box;
+}
+nav{
+    height: 150px;
+    width:100% ;
+    /* background-color:black ;   */
+    /* border:2px solid red ; */
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+body{
+    background-image: url(zoom.webp);
+   background-image: no-repeat;
+   background-size:cover;
+   background-color: black;
+   color: white;
+}

@@ -1,0 +1,195 @@
+*{
+    margin:0px ;
+   padding: 0px;
+   box-sizing: border-box;
+}
+nav{
+height: 220px;
+width:100% ;
+border-bottom:1px solid rgb(245,241,241) ;
+
+}
+.img{
+padding-top: 14px;
+padding-left: 70px;
+}
+.location-bar{
+    border: 2px solid white;
+    margin-left: 12%;
+    margin-top: 2%;
+    width: 210px;
+    border-radius: 8px;
+}
+.location-box{
+    	position: absolute;
+        top: 32px;
+        left: 275px;
+}
+select{
+    border: none;
+    color: rgb(139,139,139);
+}
+.search-bar{
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    border-radius: 8px;
+    width: 400px;
+    position:absolute;
+    top: 22px;
+    left: 475px;
+}
+.fa-magnifying-glass{
+    padding-right: 5px;
+}
+.border-box{
+    border: 2px solid rgb(248,246,243);
+    height: 35px;
+    width: 660px;
+    position: absolute;
+    top: 18px;
+    left: 260px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+::placeholder{
+    color: rgb(207, 203, 198);
+}
+.divider{
+    font-weight: bold;
+    position: absolute;
+    top: 33px;
+    left: 470px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    position: absolute;
+    top: 32px;
+    right: 160px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 100px;
+    color: rgb(218, 207, 207);
+    font-size:20px ;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.path{
+  font-size: 17px;
+  font-family: sans-serif;
+  color:rgb(218, 207, 207);
+  padding-left: 86px;
+  padding-top: 0px;
+}
+.delivery-bar{
+  position: absolute;
+  top: 141px;
+  left: 92px;
+}
+.delivery{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    font-family: sans-serif;
+    color:rgb(228, 105, 105);
+    font-size: 20px;
+}
+.dining-bar{
+    position: absolute;
+    top: 141px;
+    left: 330px;
+}
+.dining{
+    position: absolute;
+  top: 15px;
+  left: 65px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(133, 130, 130) ;
+}
+.nightlife-bar{
+  position: absolute;
+  top: 141px;
+  left: 550px;
+}
+.night{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(133, 130, 130);
+}
+#selected{
+    border: 2px solid red;
+    width: 185px;
+    position: relative;
+    top: 76px;
+    left: 90px;
+    border-radius: 10px;
+}
+button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+   background-color:transparent;
+   color: rgb(143, 140, 140);
+   border: 1px solid rgb(211, 208, 208);
+   margin-left: 15px;
+   margin-bottom: 20px;
+}
+#cuisines{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-left: 15px;
+  }
+  .buttons{
+    padding-top: 25px;
+    padding-left: 90px;
+  }
+  
+  #cuisines{
+    border: 1px solid rgb(185, 179, 179);
+  }
+  .statement{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 35px;
+    padding-left: 105px;
+  
+  }
+  .flex-containers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    flex-direction: row;
+  }
+  
+  .flex-items{
+    height: 120px;
+    width: 120px;
+    border-radius:100%;
+  }
+  .footer{
+    background-color: rgb(240, 240, 240);
+    height: 352px;
+  }
+ .footer-nav{
+  margin-left: 500px;
+ } 
